@@ -5,13 +5,13 @@ import PropTypes from 'prop-types';
 export default class Input extends Component {
   render() {
     Input.propTypes = {
-      value: PropTypes.number.isRequired,
+      value: PropTypes.string.isRequired,
     };
 
     const { value } = this.props;
     return (
       <div className="inputcontainer">
-        <input type="text" readOnly value={value} />
+        <span>{value}</span>
       </div>
     );
   }

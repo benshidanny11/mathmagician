@@ -36,19 +36,16 @@ body {
   background-color: orange;
 }
 
-.inputcontainer > input {
+.inputcontainer {
   width: 97%;
   height: 40px;
   background-color: gray;
   color: #fff;
   border: none;
-  direction: rtl;
   padding: 0 0.5rem;
-}
-
-.inputcontainer > input:focus {
-  border: none;
-  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .big {

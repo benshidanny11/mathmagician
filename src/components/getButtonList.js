@@ -1,6 +1,6 @@
 const getBttonList = (clickEvent = null) => {
   const buttons = [{ label: 'AC', color: 'gray', clickEvent }, { label: '+/-', color: 'gray', clickEvent },
-    { label: '%', color: 'gray', clickEvent }, { label: '/', color: 'orange', clickEvent },
+    { label: '%', color: 'gray', clickEvent }, { label: '÷', color: 'orange', clickEvent },
     { label: '7', color: 'gray', clickEvent }, { label: '8', color: 'gray', clickEvent },
     { label: '9', color: 'gray', clickEvent }, { label: 'X', color: 'orange', clickEvent },
     { label: '4', color: 'gray', clickEvent }, { label: '5', color: 'gray', clickEvent },
