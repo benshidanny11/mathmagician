@@ -1,3 +1,57 @@
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
 h1 {
   color: blue;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(153 153 153);
+}
+
+.btns-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 1px;
+}
+
+.btns-container > button {
+  color: rgb(61 61 61);
+  border: none;
+  height: 40px;
+}
+
+.gray {
+  background-color: rgb(219 216 216);
+}
+
+.orange {
+  background-color: orange;
+}
+
+.inputcontainer > input {
+  width: 97%;
+  height: 40px;
+  background-color: gray;
+  color: #fff;
+  border: none;
+  direction: rtl;
+  padding: 0 0.5rem;
+}
+
+.inputcontainer > input:focus {
+  border: none;
+  outline: none;
+}
+
+.big {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
