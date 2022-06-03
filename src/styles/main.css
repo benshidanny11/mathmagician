@@ -1,14 +1,14 @@
 /* stylelint-disable declaration-block-no-redundant-longhand-properties */
 h1 {
-  color: blue;
+  color: #030374;
 }
 
-body {
+.main {
   display: flex;
   justify-content: center;
 }
 
-.main {
+.cal-container {
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -51,4 +51,30 @@ body {
 .big {
   grid-column-start: 1;
   grid-column-end: 3;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 400px;
+}
+
+.link {
+  color: #030374;
+  text-decoration: none;
+  border: 1px solid #030374;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+}
+
+.link:hover {
+  color: #fff;
+  background-color: #030374;
 }

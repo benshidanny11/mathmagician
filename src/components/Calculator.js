@@ -34,10 +34,12 @@ export default function Calculator() {
 
   return (
     <div className="main">
-      <Input value={getResult()} />
-      <div className="btns-container">
-        {' '}
-        {getBttonList().map((button, i) => (<Button label={button.label} color={button.color} key={Math.random(1, 1000000)} clickEvent={clickEvent} style={i === 16 ? 'big' : ''} />))}
+      <div className="cal-container">
+        <Input value={getResult()} />
+        <div className="btns-container">
+          {' '}
+          {getBttonList().map((button, i) => (<Button label={button.label} color={button.color} key={Math.random(1, 1000000)} clickEvent={clickEvent} style={i === 16 ? 'big' : ''} />))}
+        </div>
       </div>
 
     </div>
