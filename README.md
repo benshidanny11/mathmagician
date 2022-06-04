@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-- [Visit here](https://math-magician-2.herokuapp.com/) or [Here]()
+- [Visit here](https://math-magician-2.herokuapp.com/) or [Here](https://629b2ee51bddbc0009199553--reliable-dieffenbachia-322b25.netlify.app/)
 
 ## Getting Started
 
