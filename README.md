@@ -9,6 +9,9 @@
 - React js
 - Lots of love :heart:
 
+## Live Demo
+
+- [Visit here](https://math-magician-2.herokuapp.com/) or [Here]()
 
 ## Getting Started
 
